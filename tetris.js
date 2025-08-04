@@ -1,6 +1,6 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
-
+//updated the file
 
 //context.scale (20,20);
 const blockSize = 40;
