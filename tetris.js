@@ -1,6 +1,11 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`);
+});
+
 
 //context.scale (20,20);
 const blockSize = 40;
